@@ -21,12 +21,13 @@ body {
 main {
     position: relative;
     height: 100vh;
+    
 }
 
 section#telefone{
     position: absolute;
     top: 50%;
-    left: 70%;
+    left: 65%;
     transform: translate(-50%, -50%);
     height: 627px;
     width: 311px;
@@ -46,7 +47,8 @@ iframe#tela {
     }
 
 section#redes-sociais{
-    margin: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
     display: flex;
     flex-direction: column;
     position: absolute;
