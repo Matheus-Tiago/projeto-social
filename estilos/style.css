@@ -45,15 +45,22 @@ iframe#tela {
     height: 0px;
     }
 
-#redes-sociais img {
+section#redes-sociais{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+section#redes-sociais img {
     width: 50px;
     margin: 10px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.459);
     box-sizing: border-box;
+    
 }
 
-#redes-sociais a img:hover {
+section#redes-sociais a img:hover {
     box-shadow: 2px 2px 5px black;
     transform: translate(-3px, -3px);
 }
