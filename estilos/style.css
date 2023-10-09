@@ -66,6 +66,4 @@ section#redes-sociais img {
 section#redes-sociais a img:hover {
     box-shadow: 2px 2px 5px black;
     transform: translate(-3px, -3px);
-    border: 2px;
-    border-color: blueviolet;
 }
